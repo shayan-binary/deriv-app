@@ -200,7 +200,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/deriv-app/js/";
+/******/ 	__webpack_require__.p = "/js/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
@@ -38158,7 +38158,7 @@ window.check_new_release = _check_new_release.checkNewRelease; // used by GTM to
  *
  */
 var domain_app_ids = { // these domains as supported "production domains"
-    'deriv.app': 17165
+    'deriv.app': 16929
 };
 
 var getCurrentProductionDomain = function getCurrentProductionDomain() {
@@ -38178,7 +38178,7 @@ var binary_desktop_app_id = 14473;
 
 var getAppId = function getAppId() {
     var app_id = null;
-    var user_app_id = ''; // you can insert Application ID of your registered application here
+    var user_app_id = '17165'; // you can insert Application ID of your registered application here
     var config_app_id = window.localStorage.getItem('config.app_id');
     if (config_app_id) {
         app_id = config_app_id;
