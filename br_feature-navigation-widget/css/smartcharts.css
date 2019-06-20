@@ -2277,12 +2277,13 @@
   width: 32px;
   position: absolute;
   bottom: 2.5em;
-  left: 2.5em;
-  transition: none; }
+  left: 2.5em; }
 .ciq-navigation-widget__item {
     margin-bottom: 8px; }
 .ciq-navigation-widget__item--zoom .ic-icon:first-child {
       margin-bottom: 2px; }
+.ciq-navigation-widget__item--hidden {
+      display: none; }
 .ciq-navigation-widget__item .ic-icon {
       width: 32px;
       height: 32px;
