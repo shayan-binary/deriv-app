@@ -2277,7 +2277,8 @@
   width: 32px;
   position: absolute;
   bottom: 2.5em;
-  left: 2.5em; }
+  left: 2.5em;
+  z-index: 3 !important; }
 .ciq-navigation-widget__item {
     margin-bottom: 8px; }
 .ciq-navigation-widget__item--zoom .ic-icon:first-child {
