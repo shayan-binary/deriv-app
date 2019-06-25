@@ -2157,8 +2157,10 @@
 .ciq-chart-table .cq-change-cell {
     display: inline-flex; }
 .ciq-chart-table .cq-change-cell .ic-icon {
-      padding: 8px 0 0 20px;
-      cursor: pointer; }
+      cursor: pointer;
+      position: absolute;
+      right: 2px;
+      top: 11px; }
 .ciq-chart-table .cq-change-cell .ic-icon svg {
         padding: 3px; }
 .smartcharts-light .ciq-chart-table .cq-change-cell .ic-icon svg:hover {
@@ -2178,14 +2180,24 @@
     color: #ffffff;
     border-bottom: 1px solid #101320; }
 .ciq-table-head .ciq-table-cell {
-    line-height: 40px; }
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    padding: 12px 10px; }
 .smartcharts-light .ciq-table-row {
   border-bottom: 1px solid #f4f4f6; }
 .smartcharts-dark .ciq-table-row {
   border-bottom: 1px solid #191c31; }
 .ciq-table-row .ciq-table-cell {
   text-align: center;
-  padding: 17px 16px; }
+  padding: 12px 10px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal; }
 .smartcharts-light .ciq-table-row .ciq-table-cell {
     color: rgba(0, 0, 0, 0.8); }
 .smartcharts-dark .ciq-table-row .ciq-table-cell {
