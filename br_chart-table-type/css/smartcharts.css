@@ -2159,6 +2159,12 @@
 .ciq-chart-table .cq-change-cell .ic-icon {
       padding: 8px 0 0 20px;
       cursor: pointer; }
+.ciq-chart-table .cq-change-cell .ic-icon svg {
+        padding: 3px; }
+.smartcharts-light .ciq-chart-table .cq-change-cell .ic-icon svg:hover {
+          background: rgba(0, 0, 0, 0.04); }
+.smartcharts-dark .ciq-chart-table .cq-change-cell .ic-icon svg:hover {
+          background: #191c31; }
 .ciq-table-head {
   width: var(--table-width);
   position: fixed;
