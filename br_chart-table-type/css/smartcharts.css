@@ -2161,15 +2161,16 @@
       cursor: pointer;
       position: absolute;
       right: 12px;
-      top: 11px; }
+      top: 10px;
+      border-radius: 4px; }
+.smartcharts-light .ciq-chart-table .cq-change-cell .ic-icon:hover {
+        background: rgba(0, 0, 0, 0.04); }
+.smartcharts-dark .ciq-chart-table .cq-change-cell .ic-icon:hover {
+        background: #191c31; }
 .ciq-chart-table .cq-change-cell .ic-icon svg {
-        padding: 4px;
-        width: 24px;
-        height: 24px; }
-.smartcharts-light .ciq-chart-table .cq-change-cell .ic-icon svg:hover {
-          background: rgba(0, 0, 0, 0.04); }
-.smartcharts-dark .ciq-chart-table .cq-change-cell .ic-icon svg:hover {
-          background: #191c31; }
+        width: 16px;
+        height: 16px;
+        stroke: none; }
 .ciq-table-head {
   width: var(--table-width);
   position: fixed;
