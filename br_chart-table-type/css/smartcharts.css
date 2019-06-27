@@ -2142,14 +2142,18 @@
     background: #191c31; }
 .ciq-chart-table th, .ciq-chart-table td {
     text-align: right; }
+.ciq-chart-table th:last-child, .ciq-chart-table td:last-child {
+      width: 50px !important;
+      text-align: left;
+      padding-left: 4px; }
 .ciq-chart-table td:nth-child(1), .ciq-chart-table th:nth-child(1) {
-    width: 185px;
+    width: 170px;
     padding-left: 24px;
     text-align: left; }
 .ciq-chart-table td:nth-child(2), .ciq-chart-table th:nth-child(2) {
-    width: 95px; }
+    width: 105px; }
 .ciq-chart-table td:nth-child(3), .ciq-chart-table th:nth-child(3) {
-    width: 120px; }
+    width: 110px; }
 .ciq-chart-table td:nth-child(4), .ciq-chart-table th:nth-child(4) {
     width: 95px; }
 .ciq-chart-table td:nth-child(5), .ciq-chart-table th:nth-child(5) {
@@ -2157,23 +2161,19 @@
 .ciq-chart-table td:nth-child(6), .ciq-chart-table th:nth-child(6) {
     width: 60px;
     padding-right: 4px; }
-.ciq-chart-table td:nth-child(7), .ciq-chart-table th:nth-child(7) {
-    width: 50px;
-    text-align: left;
-    padding-left: 4px; }
-.ciq-chart-table th:nth-child(7) {
+.ciq-chart-table th:last-child {
     text-align: center; }
-.ciq-chart-table th:nth-child(7) .ic-icon {
+.ciq-chart-table th:last-child .ic-icon {
       cursor: pointer;
       position: absolute;
       top: 10px;
       border-radius: 4px;
       right: 12px; }
-.smartcharts-light .ciq-chart-table th:nth-child(7) .ic-icon:hover {
+.smartcharts-light .ciq-chart-table th:last-child .ic-icon:hover {
         background: rgba(0, 0, 0, 0.04); }
-.smartcharts-dark .ciq-chart-table th:nth-child(7) .ic-icon:hover {
+.smartcharts-dark .ciq-chart-table th:last-child .ic-icon:hover {
         background: #191c31; }
-.ciq-chart-table th:nth-child(7) .ic-icon svg {
+.ciq-chart-table th:last-child .ic-icon svg {
         width: 16px;
         height: 16px;
         stroke: none; }
@@ -2201,6 +2201,9 @@
     line-height: 1.43;
     letter-spacing: normal;
     padding: 12px 10px; }
+.ciq-table-head .ciq-table-cell.before-last-child {
+      width: 60px !important;
+      padding-right: 4px; }
 .smartcharts-light .ciq-table-row {
   border-bottom: 1px solid #f4f4f6; }
 .smartcharts-dark .ciq-table-row {
@@ -2216,6 +2219,9 @@
     color: rgba(0, 0, 0, 0.8); }
 .smartcharts-dark .ciq-table-row .ciq-table-cell {
     color: #7f8397; }
+.ciq-table-row .ciq-table-cell.before-last-child {
+    width: 60px !important;
+    padding-right: 4px; }
 .ciq-table-row .ciq-table-cell .cq-change:after {
     margin: 3px 0 0 5px; }
 .smartcharts-light .ciq-table-row .ciq-table-cell .up {
