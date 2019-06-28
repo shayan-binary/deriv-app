@@ -2151,13 +2151,13 @@
     padding-left: 24px;
     text-align: left; }
 .ciq-chart-table td:nth-child(2), .ciq-chart-table th:nth-child(2) {
-    width: 105px; }
+    width: 70px; }
 .ciq-chart-table td:nth-child(3), .ciq-chart-table th:nth-child(3) {
-    width: 110px; }
+    width: 70px; }
 .ciq-chart-table td:nth-child(4), .ciq-chart-table th:nth-child(4) {
-    width: 60px; }
+    width: 70px; }
 .ciq-chart-table td:nth-child(5), .ciq-chart-table th:nth-child(5) {
-    width: 60px; }
+    width: 70px; }
 .ciq-chart-table td:nth-child(6), .ciq-chart-table th:nth-child(6) {
     width: 40px;
     padding-right: 4px; }
@@ -2172,7 +2172,7 @@
 .smartcharts-light .ciq-chart-table th:last-child .ic-icon:hover {
         background: rgba(0, 0, 0, 0.04); }
 .smartcharts-dark .ciq-chart-table th:last-child .ic-icon:hover {
-        background: #191c31; }
+        background: #202641; }
 .ciq-chart-table th:last-child .ic-icon svg {
         width: 16px;
         height: 16px;
