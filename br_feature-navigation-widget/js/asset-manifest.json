@@ -3,7 +3,7 @@
   "42-f0e9133f486f3cf46c1b.js": "/br_feature-navigation-widget/js/42-f0e9133f486f3cf46c1b.js",
   "binary_common.js": "/br_feature-navigation-widget/js/binary_common.min.js",
   "binary_common.js.map": "/br_feature-navigation-widget/js/binary_common.min.js.map",
-  "contract.js": "/br_feature-navigation-widget/js/contract-fbe3388a4fbd03519e7b.js",
+  "contract.js": "/br_feature-navigation-widget/js/contract-3345cb20c8b90bbfba81.js",
   "api_token.js": "/br_feature-navigation-widget/js/api_token-455796411755cc9d240f.js",
   "login_history.js": "/br_feature-navigation-widget/js/login_history-dcb5548da21ab243acf1.js",
   "binary.js": "/br_feature-navigation-widget/js/binary.js",
@@ -88,8 +88,8 @@
   "reports.js": "/br_feature-navigation-widget/js/reports-75d3b56dd3bfcfdfbdff.js",
   "self_exclusion.js": "/br_feature-navigation-widget/js/self_exclusion-7b24d88cd6b9f04ae3d0.js",
   "settings.js": "/br_feature-navigation-widget/js/settings-ee411577a3c3a94f2f4e.js",
-  "smart_chart.js": "/br_feature-navigation-widget/js/smart_chart-72524923c4901b521004.js",
+  "smart_chart.js": "/br_feature-navigation-widget/js/smart_chart-4112bda26006f75020bb.js",
   "statement.js": "/br_feature-navigation-widget/js/statement-74154da86d5e996eddb8.js",
   "vendor.js": "/br_feature-navigation-widget/js/vendor.min.js",
-  "vendors~smart_chart.js": "/br_feature-navigation-widget/js/vendors~smart_chart-6016c9d335ab7bc0ae78.js"
+  "vendors~smart_chart.js": "/br_feature-navigation-widget/js/vendors~smart_chart-fd0a50ede4f6b33e1fe6.js"
 }
