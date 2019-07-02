@@ -1004,7 +1004,7 @@
         position: relative;
         top: 3px; }
 .cq-chart-setting .cq-setting-container {
-  height: 338px;
+  height: 376px;
   width: 260px;
   position: relative;
   transition: height 250ms ease-out; }
@@ -2147,17 +2147,17 @@
       text-align: left;
       padding-left: 4px; }
 .ciq-chart-table td:nth-child(1), .ciq-chart-table th:nth-child(1) {
-    width: 180px;
+    width: 240px;
     padding-left: 24px;
     text-align: left; }
 .ciq-chart-table td:nth-child(2), .ciq-chart-table th:nth-child(2) {
     width: 70px; }
 .ciq-chart-table td:nth-child(3), .ciq-chart-table th:nth-child(3) {
-    width: 70px; }
+    width: 90px; }
 .ciq-chart-table td:nth-child(4), .ciq-chart-table th:nth-child(4) {
-    width: 70px; }
+    width: 90px; }
 .ciq-chart-table td:nth-child(5), .ciq-chart-table th:nth-child(5) {
-    width: 70px; }
+    width: 90px; }
 .ciq-chart-table td:nth-child(6), .ciq-chart-table th:nth-child(6) {
     width: 40px;
     padding-right: 4px; }
@@ -2179,7 +2179,7 @@
         stroke: none; }
 .ciq-chart-table tbody {
     display: block;
-    margin-top: 40px; }
+    margin-top: 52px; }
 .ciq-chart-table .cq-change-cell {
     display: inline-flex; }
 .ciq-table-head {
@@ -2200,7 +2200,7 @@
     font-style: normal;
     line-height: 1.43;
     letter-spacing: normal;
-    padding: 12px 10px; }
+    padding: 16px; }
 .ciq-table-head .ciq-table-cell.before-last-child {
       width: 60px !important;
       padding-right: 4px; }
@@ -2209,7 +2209,7 @@
 .smartcharts-dark .ciq-table-row {
   border-bottom: 1px solid #191c31; }
 .ciq-table-row .ciq-table-cell {
-  padding: 12px 2px;
+  padding: 16px;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -2247,7 +2247,7 @@
   padding: 5px 5px 5px 20px !important;
   text-align: left;
   font-size: 1.2em;
-  height: 20px; }
+  height: 52px; }
 .smartcharts-mobile .ciq-chart-table .ciq-table-cell .ciq-table-date {
     flex: 1; }
 .smartcharts-mobile .ciq-chart-table .ciq-table-cell > div {
@@ -2337,6 +2337,92 @@
       height: 25px; }
 .cq-last-digits.minimised .cq-bar-footer {
       top: 8px; }
+
+/* ------------------------ *\
+		Variables
+\* ------------------------ */
+/* --------- COLOR :: Border --------- */
+/* ------------------------ *\
+        Mixin
+\* ------------------------ */
+/* --------- Animation : dialog --------- */
+/* --------- CSS Properties --------- */
+/* stylelint-disable color-no-hex */
+/* stylelint-disable value-keyword-case */
+/* Brand Blue */
+.stx-marker {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  z-index: 2; }
+
+/* ------------------------ *\
+		Variables
+\* ------------------------ */
+/* --------- COLOR :: Border --------- */
+/* ------------------------ *\
+        Mixin
+\* ------------------------ */
+/* --------- Animation : dialog --------- */
+/* --------- CSS Properties --------- */
+/* stylelint-disable color-no-hex */
+/* stylelint-disable value-keyword-case */
+/* Brand Blue */
+.spot__shape-circule {
+  border-radius: 100%;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  margin-top: -3px;
+  line-height: 1px;
+  position: absolute; }
+.smartcharts-light .spot__fill-red {
+  background-color: #e31c4b; }
+.smartcharts-dark .spot__fill-red {
+  background-color: #e31c4b; }
+.smartcharts-light .spot__fill-blue {
+  background-color: #39b19d; }
+.smartcharts-dark .spot__fill-blue {
+  background-color: #39b19d; }
+.spot__label {
+  text-align: center;
+  padding: 4px;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 1;
+  margin-left: 0px;
+  line-height: 1.5; }
+.smartcharts-light .spot__label {
+    background-color: rgba(0, 0, 0, 0.16);
+    color: rgba(0, 0, 0, 0.8); }
+.smartcharts-dark .spot__label {
+    background-color: #303342;
+    color: #ffffff; }
+.spot__label:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    margin-left: 0px;
+    border-width: 4px;
+    border-style: solid; }
+.spot__label[data-label-pos='top'] {
+    border-radius: 3px 3px 3px 0px;
+    margin-top: -40px; }
+.spot__label[data-label-pos='top']:after {
+      top: 100%; }
+.smartcharts-light .spot__label[data-label-pos='top']:after {
+        border-color: rgba(0, 0, 0, 0.16) transparent transparent rgba(0, 0, 0, 0.16); }
+.smartcharts-dark .spot__label[data-label-pos='top']:after {
+        border-color: #303342 transparent transparent #303342; }
+.spot__label[data-label-pos='bottom'] {
+    border-radius: 0px 3px 3px;
+    margin-top: 15px; }
+.spot__label[data-label-pos='bottom']:after {
+      bottom: 100%; }
+.smartcharts-light .spot__label[data-label-pos='bottom']:after {
+        border-color: transparent transparent rgba(0, 0, 0, 0.16) rgba(0, 0, 0, 0.16); }
+.smartcharts-dark .spot__label[data-label-pos='bottom']:after {
+        border-color: transparent transparent #303342 #303342; }
 
 
 @charset "UTF-8";
@@ -3986,24 +4072,6 @@ html, body {
 .stx-crosshair-on .cq-crosshair.active {
     pointer-events: initial;
     opacity: 1; }
-
-/* ------------------------ *\
-		Variables
-\* ------------------------ */
-/* --------- COLOR :: Border --------- */
-/* ------------------------ *\
-        Mixin
-\* ------------------------ */
-/* --------- Animation : dialog --------- */
-/* --------- CSS Properties --------- */
-/* stylelint-disable color-no-hex */
-/* stylelint-disable value-keyword-case */
-/* Brand Blue */
-.stx-marker {
-  position: absolute;
-  display: inline-block;
-  text-align: center;
-  z-index: 2; }
 
 /* ------------------------ *\
 		Variables

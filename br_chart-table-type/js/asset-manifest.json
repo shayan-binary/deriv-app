@@ -3,7 +3,7 @@
   "42-f0e9133f486f3cf46c1b.js": "/br_chart-table-type/js/42-f0e9133f486f3cf46c1b.js",
   "binary_common.js": "/br_chart-table-type/js/binary_common.min.js",
   "binary_common.js.map": "/br_chart-table-type/js/binary_common.min.js.map",
-  "contract.js": "/br_chart-table-type/js/contract-fbe3388a4fbd03519e7b.js",
+  "contract.js": "/br_chart-table-type/js/contract-3345cb20c8b90bbfba81.js",
   "api_token.js": "/br_chart-table-type/js/api_token-455796411755cc9d240f.js",
   "login_history.js": "/br_chart-table-type/js/login_history-dcb5548da21ab243acf1.js",
   "binary.js": "/br_chart-table-type/js/binary.js",
@@ -88,8 +88,8 @@
   "reports.js": "/br_chart-table-type/js/reports-75d3b56dd3bfcfdfbdff.js",
   "self_exclusion.js": "/br_chart-table-type/js/self_exclusion-7b24d88cd6b9f04ae3d0.js",
   "settings.js": "/br_chart-table-type/js/settings-ee411577a3c3a94f2f4e.js",
-  "smart_chart.js": "/br_chart-table-type/js/smart_chart-984f4dd56c53c88f3e8c.js",
+  "smart_chart.js": "/br_chart-table-type/js/smart_chart-f5c42fb4b99bf4793204.js",
   "statement.js": "/br_chart-table-type/js/statement-74154da86d5e996eddb8.js",
   "vendor.js": "/br_chart-table-type/js/vendor.min.js",
-  "vendors~smart_chart.js": "/br_chart-table-type/js/vendors~smart_chart-563a83c7110995a7aaff.js"
+  "vendors~smart_chart.js": "/br_chart-table-type/js/vendors~smart_chart-046deb3da362137c42c7.js"
 }
