@@ -2189,13 +2189,11 @@
         height: 16px;
         stroke: none; }
 .ciq-chart-table tbody {
-    display: block;
-    margin-top: 52px; }
+    display: block; }
 .ciq-chart-table .cq-change-cell {
     display: inline-flex; }
 .ciq-table-head {
   width: var(--table-width);
-  position: fixed;
   display: block; }
 .smartcharts-light .ciq-table-head {
     background: #f4f4f6;
