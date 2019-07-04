@@ -2120,7 +2120,7 @@
   width: var(--table-width);
   left: auto; }
 .ciq-chart-dialog .ciq-list > :last-child {
-    top: 42px !important;
+    top: 15px !important;
     margin-right: 10px; }
 .cq-dialog-overlay {
   visibility: hidden;
