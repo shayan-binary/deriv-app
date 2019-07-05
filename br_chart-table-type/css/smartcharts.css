@@ -2139,7 +2139,7 @@
 .smartcharts-light .ciq-chart-table {
     background: rgba(255, 255, 255, 0.8); }
 .smartcharts-dark .ciq-chart-table {
-    background: #191c31; }
+    background: #101320; }
 .ciq-chart-table th, .ciq-chart-table td {
     text-align: right;
     box-sizing: border-box; }
@@ -2177,9 +2177,10 @@
 .ciq-chart-table th:last-child .ic-icon {
       cursor: pointer;
       position: absolute;
-      top: 10px;
+      top: 13px;
       border-radius: 4px;
-      right: 12px; }
+      right: 12px;
+      transition: background 0.2s 0.15s; }
 .smartcharts-light .ciq-chart-table th:last-child .ic-icon:hover {
         background: rgba(0, 0, 0, 0.04); }
 .smartcharts-dark .ciq-chart-table th:last-child .ic-icon:hover {
