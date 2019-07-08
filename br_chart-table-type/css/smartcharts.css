@@ -2116,6 +2116,7 @@
 /* stylelint-disable color-no-hex */
 /* stylelint-disable value-keyword-case */
 /* Brand Blue */
+/* stylelint-disable plugin/no-unsupported-browser-features */
 .ciq-chart-dialog {
   width: var(--table-width);
   left: auto; }
@@ -2129,6 +2130,12 @@
     background: rgba(255, 255, 255, 0.7); }
 .smartcharts-dark .cq-dialog-overlay {
     background: rgba(42, 48, 82, 0.7); }
+.cq-dialog-overlay .cq-dialog--cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(2px);
+            filter: blur(2px); }
 .cq-dialog-active {
   visibility: visible;
   z-index: 1; }
