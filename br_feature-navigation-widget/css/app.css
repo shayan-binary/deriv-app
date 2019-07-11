@@ -1146,21 +1146,6 @@ html {
   .chart-container .chartContainer {
     background: transparent;
     min-height: 100%; }
-    .chart-container .chartContainer:before {
-      content: '';
-      position: absolute;
-      height: 100%;
-      width: 80px;
-      top: 0;
-      left: -2px;
-      pointer-events: none;
-      z-index: 2; }
-      .theme--light .chart-container .chartContainer:before {
-        background-image: -webkit-gradient(linear, left top, right top, from(white), to(rgba(255, 255, 255, 0)));
-        background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0)); }
-      .theme--dark .chart-container .chartContainer:before {
-        background-image: -webkit-gradient(linear, left top, right top, from(#101320), to(rgba(16, 19, 32, 0)));
-        background-image: linear-gradient(to right, #101320, rgba(16, 19, 32, 0)); }
   @media (max-width: 768px) {
     .chart-container {
       height: 400px; }
